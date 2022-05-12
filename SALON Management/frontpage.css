@@ -1,0 +1,47 @@
+.bg-img {
+  
+  background-image: url("front.jpg");
+  min-height: 737px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 0.87;
+}
+
+.btn {
+    border: none;
+    background-color: #5d6f7d;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 21px;
+      }
+
+.btn:hover {
+	background: #7d8992;
+
+}
+
+
+.container {
+  margin-top: 23%;
+    margin-left: 42%;
+    position: absolute;
+    z-index: 10000;
+    width: 703px;
+    border-radius: 7px;
+    background-color: #c598bc00;
+    top: 2px;
+}
+  
+
+a {
+  text-decoration: none;
+  color:white;
+}

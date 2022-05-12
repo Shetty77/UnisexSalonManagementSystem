@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.bg-img {
+  
+  background-image: url("adminbg.png");
+  min-height: 737px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 101%;
+  height: 100%;
+  position: relative;
+  opacity: 0.87;
+  margin-left: -8px;
+}
+
+h2 {
+    display: block;
+    font-size: 80.5px;
+    font-weight: bold;
+    margin-top: -8px;
+    margin-left: -78px;
+    color: #232225;
+}
+
+.topnav-right {
+ overflow: hidden;
+  background-color: #607d8b00;
+
+}
+
+
+.topnav-right a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+.topnav-right a:hover {
+  background-color: #f4433603;
+  color: #314753;
+  opacity: 0.;
+}
+
+.topnav-right {
+  float: right;
+}
+li{
+    display: block;
+    float: left;
+    
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+  .topnav-right {
+    float: left;
+    max-width: 96px;
+}
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#indis {
+    top: 136px;
+    background-color: #636760;
+}
+
+#delete {
+    top: 236px;
+    background-color: #636760;
+}
+
+#display {
+    top: 336px;
+    background-color: #636760;
+}
+
+enav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
